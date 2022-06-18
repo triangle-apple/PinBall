@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class StarController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // ‰ñ“]‘¬“x
+    private float rotSpeed = 0.2f;
+
+    // Use this for initiarization
     void Start()
     {
+        //‰ñ“]‚ğŠJn‚·‚éŠp“x‚ğİ’è
+        this.transform.Rotate(0, Random.Range(0, 360), 0);
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // ‰ñ“]
+        this.transform.Rotate(0, this.rotSpeed, 0);
     }
 }
