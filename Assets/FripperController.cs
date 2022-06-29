@@ -26,7 +26,7 @@ public class FripperController : MonoBehaviour
     void Update()
     {
         // 左矢印キーを押したとき左フリッパーを動かす
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && tag == "RightFripperTag")
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && tag == "LeftFripperTag")
         {
             SetAngle(this.flickAngle);
         }
